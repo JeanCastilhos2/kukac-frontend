@@ -1,0 +1,57 @@
+.card-palindromos {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.card-palindromos h2 {
+  font-size: 1.5rem;
+}
+
+.card-palindromos label {
+  font-weight: bold;
+}
+
+.card-palindromos input {
+  width: 10%;
+  padding: 8px;
+  margin: 8px 0;
+  margin-left: 10px;
+}
+
+.card-palindromos button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  margin: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.card-palindromos button:hover {
+  background-color: #0056b3;
+}
+
+.scrollable-list {
+  max-height: 200px; /* Ajuste a altura máxima da lista conforme necessário. */
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.scrollable-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.scrollable-list ul li {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
