@@ -10,10 +10,10 @@ const Navbar: React.FC = () => {
         <Link to="/">KUKAC</Link>
       </div>
       <div className="right">
-        <Link to="/desafio1">Desafio 1</Link>
-        <Link to="/desafio2">Desafio 2</Link>
-        <Link to="/desafio3">Desafio 3</Link>
-        <Link to="/desafio4">Desafio 4</Link>
+        <Link to="/PALINDROMOS">Desafio 1</Link>
+        <Link to="/TROCO">Desafio 2</Link>
+        <Link to="/VEICULOS">Desafio 3</Link>
+        <Link to="/CEPS">Desafio 4</Link>
       </div>
     </nav>
   );

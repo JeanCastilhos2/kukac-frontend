@@ -21,10 +21,10 @@ root.render(
       <Routes>
         <Route element={<App />}>
           <Route path="/" element={<Home />} />
-          <Route path="desafio1" element={<Desafio1 />} />
-          <Route path="desafio2" element={<Desafio2 />} />
-          <Route path="desafio3" element={<Desafio3 />} />
-          <Route path="desafio4" element={<Desafio4 />} />
+          <Route path="palindromos" element={<Desafio1 />} />
+          <Route path="troco" element={<Desafio2 />} />
+          <Route path="veiculos" element={<Desafio3 />} />
+          <Route path="ceps" element={<Desafio4 />} />
         </Route>
       </Routes>
     </BrowserRouter>
