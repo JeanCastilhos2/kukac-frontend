@@ -1,0 +1,58 @@
+.card-troco {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.card-troco h2 {
+  font-size: 1.5rem;
+}
+
+.card-troco label {
+  font-weight: bold;
+}
+
+.card-troco input {
+  width: 10%;
+  padding: 8px;
+  margin: 8px 0;
+  margin-left: 10px;
+}
+
+.card-troco button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  margin: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.card-troco button:hover {
+  background-color: #0056b3;
+}
+
+.card-troco .response {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.card-troco .response h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.card-troco .response p {
+  margin: 5px 0;
+}
+
+/* Estilo para os valores da resposta */
+.card-troco .response p:first-child {
+  font-weight: bold;
+}
