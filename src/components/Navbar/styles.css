@@ -1,0 +1,38 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: #fff;
+    height: 10vh;
+    font-size: 3vh;
+  }
+  
+  .left {
+    flex: 1;
+  }
+  
+  .right {
+    display: flex;
+    gap: 10px;
+  }
+
+  .left a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .left a:hover {
+    color: yellow;
+  }
+  
+  .right a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .right a:hover {
+    color: yellow;
+  }
+  

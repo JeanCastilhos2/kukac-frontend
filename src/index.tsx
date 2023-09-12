@@ -4,10 +4,12 @@ import './index.css';
 import App from './App';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
+import Home from './pages/Home';
 import Desafio1 from './pages/Desafio1';
 import Desafio2 from './pages/Desafio2';
 import Desafio3 from './pages/Desafio3';
 import Desafio4 from './pages/Desafio4';
+
 
 
 const root = ReactDOM.createRoot(
@@ -18,7 +20,8 @@ root.render(
      <BrowserRouter>
       <Routes>
         <Route element={<App />}>
-          <Route path="/" element={<Desafio1 />} />
+          <Route path="/" element={<Home />} />
+          <Route path="desafio1" element={<Desafio1 />} />
           <Route path="desafio2" element={<Desafio2 />} />
           <Route path="desafio3" element={<Desafio3 />} />
           <Route path="desafio4" element={<Desafio4 />} />
