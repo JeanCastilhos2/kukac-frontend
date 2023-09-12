@@ -1,0 +1,72 @@
+.card-cep {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-height: 90vh;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.card-cep h2 {
+  font-size: 1.5rem;
+}
+
+.card-cep label {
+  font-weight: bold;
+}
+
+.card-cep input {
+  width: 20%;
+  padding: 8px;
+  margin: 4px 0;
+  margin-left: 10px;
+}
+
+.card-cep button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  margin: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.card-cep button:hover {
+  background-color: #0056b3;
+}
+
+.card-cep .response {
+  margin-top: 20px;
+  text-align: left;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.card-cep .response h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.card-cep .response ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card-cep .response li {
+  margin-bottom: 15px;
+}
+
+.card-cep .response li strong:first-child {
+  font-weight: bold;
+}
+
+.card-cep .response .error {
+  color: #ff0000;
+  font-weight: bold;
+}
