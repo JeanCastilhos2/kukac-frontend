@@ -1,18 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
+
 .card-cep {
-  background-color: #f0f0f0;
+  background-color: #d9d9d9;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   text-align: center;
   max-height: 90vh;
-  width: 30%;
+  width: 35%;
+  height: 85vh;
   margin: 0 auto;
   margin-top: 20px;
   overflow: hidden;
 }
 
 .card-cep h2 {
-  font-size: 1.5rem;
+  font-size: 5vh;
 }
 
 .card-cep label {
@@ -20,24 +23,29 @@
 }
 
 .card-cep input {
-  width: 20%;
+  width: 50%;
+  height: 2vh;
   padding: 8px;
   margin: 4px 0;
   margin-left: 10px;
+  margin-bottom: 15px;
 }
 
 .card-cep button {
-  background-color: #007bff;
-  color: #fff;
+  background-color: #F3B202;
+  color: #000000;
   border: none;
   padding: 8px 16px;
   margin: 8px;
   cursor: pointer;
   border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: 'Dosis', sans-serif;
 }
 
 .card-cep button:hover {
-  background-color: #0056b3;
+  color:antiquewhite
 }
 
 .card-cep .response {
@@ -48,7 +56,7 @@
 }
 
 .card-cep .response h3 {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-bottom: 10px;
 }
 

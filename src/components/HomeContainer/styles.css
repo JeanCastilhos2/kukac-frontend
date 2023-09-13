@@ -1,0 +1,15 @@
+.container {
+  display: "block";
+  align-items: "center";
+}
+
+.container h1 {
+  color: aliceblue;
+  text-transform: uppercase;
+  font-size: 5vh;
+}
+
+.container h4{
+  color: rgb(228, 185, 57);
+  text-transform: uppercase;
+}

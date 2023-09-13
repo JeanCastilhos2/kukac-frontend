@@ -1,38 +1,46 @@
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    padding: 10px 20px;
-    color: #fff;
-    height: 10vh;
-    font-size: 3vh;
-  }
-  
-  .left {
-    flex: 1;
-  }
-  
-  .right {
-    display: flex;
-    gap: 10px;
-  }
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap");
 
-  .left a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .left a:hover {
-    color: yellow;
-  }
-  
-  .right a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .right a:hover {
-    color: yellow;
-  }
-  
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  color: #fff;
+  height: 8vh;
+  font-size: 3vh;
+  text-transform: uppercase;
+}
+
+nav img{
+  width: 20vh;
+  height: 7vh;
+}
+
+.left {
+  flex: 1;
+}
+
+.right {
+  display: flex;
+}
+
+.left a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 5vh;
+}
+
+.left a:hover {
+  color: yellow;
+}
+
+.right a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10vh;
+}
+
+.right a:hover {
+  color: yellow;
+}

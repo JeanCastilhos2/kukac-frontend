@@ -1,15 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
+
 .card-palindromos {
-  background-color: #f0f0f0;
+  background-color: #d9d9d9;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   text-align: center;
-  width: 30%;
+  width: 35%;
+  height: 80vh;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .card-palindromos h2 {
-  font-size: 1.5rem;
+  font-size: 5vh;
 }
 
 .card-palindromos label {
@@ -24,23 +28,27 @@
 }
 
 .card-palindromos button {
-  background-color: #007bff;
-  color: #fff;
+  background-color: #F3B202;
+  color: #000000;
   border: none;
   padding: 8px 16px;
   margin: 8px;
   cursor: pointer;
   border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: 'Dosis', sans-serif;
 }
 
 .card-palindromos button:hover {
-  background-color: #0056b3;
+  color: antiquewhite;
+
 }
 
 .scrollable-list {
-  max-height: 200px; /* Ajuste a altura máxima da lista conforme necessário. */
+  max-height: 200px; 
   overflow-y: auto;
-  border: 1px solid #ccc;
+  border: 1px solid #c7ab08;
   padding: 10px;
   border-radius: 5px;
 }
