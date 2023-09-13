@@ -7,7 +7,6 @@ const Home: React.FC = () => {
       <h1>
         <i>“Com grandes poderes vêm grandes responsabilidades.”</i>
       </h1>
-      <h4>-Ben Parker</h4>
     </HomeContainer>
   );
 };

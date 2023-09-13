@@ -2,7 +2,7 @@ import React from "react";
 import Container from "../components/Container/Container";
 import CardCep from "../components/CardCep/CardCep";
 
-const Desafio4: React.FC = () => {
+const Ceps: React.FC = () => {
   return (
     <Container>
       <CardCep/>
@@ -10,4 +10,4 @@ const Desafio4: React.FC = () => {
   );
 };
 
-export default Desafio4;
+export default Ceps;

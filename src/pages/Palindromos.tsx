@@ -2,7 +2,7 @@ import React from "react";
 import Container from "../components/Container/Container";
 import CardPalindromos from "../components/CardPalindromos/CardPalindromos";
 
-const Desafio1: React.FC = () => {
+const Palindromos: React.FC = () => {
   return (
     <Container>
       <CardPalindromos />
@@ -10,4 +10,4 @@ const Desafio1: React.FC = () => {
   );
 };
 
-export default Desafio1;
+export default Palindromos;

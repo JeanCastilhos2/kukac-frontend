@@ -1,13 +1,13 @@
 import React from "react";
 import Container from "../components/Container/Container";
-import CardVeiculos from "../components/CardVeiculos/CardVeiculos";
+import CardCadastroVeiculos from "../components/CardCadastroVeiculos/CardCadastroVeiculos";
 
-const Desafio3: React.FC = () => {
+const CadastroVeiculos: React.FC = () => {
   return (
     <Container>
-      <CardVeiculos />
+      <CardCadastroVeiculos />
     </Container>
   );
 };
 
-export default Desafio3;
+export default CadastroVeiculos;

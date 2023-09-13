@@ -2,7 +2,7 @@ import React from "react";
 import Container from "../components/Container/Container";
 import CardTroco from "../components/CardTroco/CardTroco";
 
-const Desafio2: React.FC = () => {
+const Troco: React.FC = () => {
   return (
     <Container>
       <CardTroco/>
@@ -10,4 +10,4 @@ const Desafio2: React.FC = () => {
   );
 };
 
-export default Desafio2;
+export default Troco;
