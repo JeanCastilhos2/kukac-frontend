@@ -1,6 +1,6 @@
 .container {
   display: "block";
-  align-items: "center";
+  height: 100vh;
 }
 
 .container h1 {

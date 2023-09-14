@@ -22,7 +22,7 @@ const CardCadastroVeiculos: React.FC = () => {
   const [anoFabricacao, setAnoFabricacao] = useState(0);
   const [marca, setMarca] = useState("");
   const [mensagem, setMensagem] = useState("");
-  const [tipoVeiculo, setTipoVeiculo] = useState<"carro" | "moto">("carro"); // Defina o tipo inicial como "carro"
+  const [tipoVeiculo, setTipoVeiculo] = useState<"carro" | "moto">("carro"); 
   const [quantidadePortas, setQuantidadePortas] = useState(0);
   const [passageiros, setPassageiros] = useState(0);
 

@@ -18,6 +18,7 @@ const Navbar: React.FC = () => {
         <Link to="/palindromos">Palindromos</Link>
         <Link to="/troco">Troco</Link>
         <Link to="/cadastrar-veiculo">Cadastrar Veiculos</Link>
+        <Link to="/veiculos">Veiculos</Link>
         <Link to="/ceps">CEP's</Link>
       </div>
     </nav>

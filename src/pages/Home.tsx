@@ -5,7 +5,7 @@ const Home: React.FC = () => {
   return (
     <HomeContainer>
       <h1>
-        <i>“Com grandes poderes vêm grandes responsabilidades.”</i>
+        <i>Desafio KUKAC”</i>
       </h1>
     </HomeContainer>
   );

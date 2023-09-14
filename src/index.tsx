@@ -7,8 +7,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Palindromos from "./pages/Palindromos";
 import Troco from "./pages/Troco";
-import CadastroVeiculos from "./pages/Desafio3";
+import CadastroVeiculos from "./pages/CadastroVeiculo";
 import Ceps from "./pages/Ceps";
+import Veiculos from "./pages/Veiculos";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -22,6 +23,7 @@ root.render(
           <Route path="palindromos" element={<Palindromos />} />
           <Route path="troco" element={<Troco />} />
           <Route path="cadastrar-veiculo" element={<CadastroVeiculos />} />
+          <Route path="veiculos" element={<Veiculos />} />
           <Route path="ceps" element={<Ceps />} />
         </Route>
       </Routes>

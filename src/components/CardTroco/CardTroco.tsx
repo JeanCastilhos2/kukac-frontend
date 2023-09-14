@@ -38,7 +38,7 @@ const CardTroco: React.FC = () => {
       <div>
         <label>Valor Compra:</label>
         <input
-          type="number"
+          type="text"
           value={valorCompra}
           onChange={(e) => setValorCompra(e.target.value)}
         />
@@ -46,7 +46,7 @@ const CardTroco: React.FC = () => {
       <div>
         <label>Valor Entregue:</label>
         <input
-          type="number"
+          type="text"
           value={valorEntregue}
           onChange={(e) => setValorEntregue(e.target.value)}
         />

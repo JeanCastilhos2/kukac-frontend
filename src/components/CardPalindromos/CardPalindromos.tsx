@@ -34,7 +34,7 @@ const CardPalindromos: React.FC = () => {
       <div>
         <label>Número 1:</label>
         <input
-          type="number"
+          type="text"
           value={numero1}
           onChange={(e) => setNumero1(e.target.value)}
         />
@@ -42,7 +42,7 @@ const CardPalindromos: React.FC = () => {
       <div>
         <label>Número 2:</label>
         <input
-          type="number"
+          type="text"
           value={numero2}
           onChange={(e) => setNumero2(e.target.value)}
         />
